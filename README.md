@@ -67,3 +67,12 @@ Endianness: Verified that x86_64 architecture stores multi-byte integers in Litt
 
 Secure Coding: Demonstrated why scanf("%s") and gets() should be replaced with safer alternatives like fgets().
 
+
+## Build Instructions
+
+This project includes a `Makefile` to automate the environment setup and compilation process.
+
+### Quick Start
+To compile both the vulnerable binary and the exploit loader, run:
+```bash
+make
