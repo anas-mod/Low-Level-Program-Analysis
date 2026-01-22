@@ -1,5 +1,5 @@
 
-    **Project Overview**
+   **Project Overview**
 
 This project demonstrates a classic Buffer Overflow (Smashing the Stack) vulnerability. The objective was to manipulate a local variable's value by overflowing an adjacent character buffer in a 64-bit Linux environment.
 
@@ -14,7 +14,7 @@ The target application (keycard.c) utilizes the unsafe scanf("%s") function. Bec
 To trigger the gadget() function (which prints the flag), the variable key must be modified from its initial value (0x12345678) to the "magic" value: 0xdeadbeef.
 
 
-    **Technical Workflow**
+   **Technical Workflow**
 
 *1. Static Analysis (The Source)*
 
